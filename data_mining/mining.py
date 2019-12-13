@@ -8,6 +8,8 @@ import matplotlib.pyplot as plt
 # print(mamelist.tail(10))
 
 from IPython.display import IFrame
-url="https://www.baidu.com"
+url = "https://www.baidu.com"
 
-print(IFrame(url,width='80%',height=400))
+print(IFrame(url, width='80%', height=400))
+# changes to be commited 工作区文件修改，准备提交缓冲区
+# git push origin master 缓冲区有文件，准备更新到版本库
