@@ -30,19 +30,25 @@
 # print('%04d' % 123.456)  # 输出宽度，不足的用0补齐
 # print('%f' % 123.456)
 
-# 15 python内置数据类型
-# list相关用法
-a = [51, 42, 33, 14, 5, 16, 7, -8, 79, 100]
-b = [1, 2, 3, 4, 5]
-c = [97, 98, 99]
-d = [10009]
-print('len a:', len(a))
-print('max a:', max(a))
-print('min a:', min(a))
-print('sum a:', sum(a))
-# print(sorted(a))  # 升序排列
-# print(a.count(100))  # 出现次数
-a.append(d)  # 添加项若是数，则与extend效果相同；若添加项是列表，则将列表中嵌套列表
-print(a)
-b.extend(d)  # 将添加项内容追加到后面
-print(b)
+# # 15 python内置数据类型
+# # list相关用法
+# a = [51, 42, 33, 14, 5, 16, 7, -8, 79, 100]
+# b = [1, 2, 3, 4, 5]
+# c = [97, 98, 99]
+# d = [10009]
+# print('len a:', len(a))
+# print('max a:', max(a))
+# print('min a:', min(a))
+# print('sum a:', sum(a))
+# # print(sorted(a))  # 升序排列
+# # print(a.count(100))  # 出现次数
+# a.append(d)  # 添加项若是数，则与extend效果相同；若添加项是列表，则将列表中嵌套列表
+# print(a)
+# b.extend(d)  # 将添加项内容追加到后面
+# print(b)
+
+# 16 新添加内容
+# tuple相关用法
+a = (1, 2, 3)
+b = (4, 5, 6)
+print(len(a))
